@@ -6,8 +6,8 @@
 List<Integer> pokerindex = new ArrayList<>();<br>
 String[] colors = {"♠","♥","♦","♣"};<br>
 String[] numbers = {"2","A","K","Q","J","10","9","8","7","6","5","4","3"};<br>
-//List<String> colors = {"♠","♥","♦","♣"};<br>
-//List<String> numbers = {"2","A","K","Q","J","10","9","8","7","6","5","4","3"};<br><br>
+//List<String> colors = List.of("♠","♥","♦","♣");(jdk9及以上可用)<br>
+//List<String> numbers = List.of("2","A","K","Q","J","10","9","8","7","6","5","4","3");(jdk9及以上可用)<br><br>
 ##### 2.洗牌<br>
 使用Collections中的方法shuffle(pokerindex)<br><br>
 ##### 3.发牌<br>
